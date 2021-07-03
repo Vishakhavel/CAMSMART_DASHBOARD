@@ -28,6 +28,98 @@
   color: #61dafb;
 }
 
+.vichu{
+  color:greengrey;
+  align: center;
+  padding :10px;
+  border: 2px;
+
+
+
+}
+
+.tab{
+  border: 1px;
+}
+
+
+/* this is chumma for the button to be center, change when there are mulitple buttons */
+button{
+  margin: auto;
+  display: absolute;
+  padding: 4px;
+}
+.image{
+  background-color: #ffabe1;
+
+
+}
+.date{
+  background-color: pink;
+
+
+}
+
+.trigger{
+  background-color: pink;
+
+}
+
+.name{
+  background-color: #ffabe1;
+
+
+}
+
+.timestamp{
+  background-color: #ffabe1;
+
+}
+
+.id{
+  background-color: pink;
+
+}
+.welcome{
+  background-color: #48d1cc		;
+  background-image:
+}
+.body_console{
+  background-color: pink;
+}
+
+.innertable
+{
+  background-color: green;
+}
+
+.dashboard
+{
+  background-color: #48d1cc		;
+
+}
+.footer{
+  position: absolute;
+  bottom: 0;
+  height: 40px;
+  width: 100%;
+  background-color: grey;
+
+}
+.table{
+  align:middle;
+  font-size: 0.7rem;
+
+
+
+}
+.row{
+  color:black;
+}
+
+.container{
+  align: middle;
+}
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
