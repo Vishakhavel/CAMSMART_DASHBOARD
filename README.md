@@ -1,5 +1,7 @@
 # CAMSMART DASHBOARD
 
+
+
 This project was created using React.
 
 ## Available Scripts
@@ -28,6 +30,13 @@ The repo is public.
 
 ### `IMPORTANT`
 RUN THE MYSQL CONTAINER, THEN THE SPRING SERVER, ONLY THEN THE REACT CONTAINER, FAILING TO FOLLOW THIS ORDER WILL RESULT IN AN ERROR AS THE REACT SERVER WON'T RENDER THE DATA FROM ANYWHERE.
+
+
+
+THE DASHBOARD WILL LOOK LIKE THIS:
+
+ <img width="150px" alt="badge" src="https://user-images.githubusercontent.com/54572908/124347736-af5c3380-dc03-11eb-8b84-ce49dd2d0eee.jpeg">
+
 
 
 
