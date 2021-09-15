@@ -2,6 +2,7 @@ import React,{Component} from 'react';
 
 import './App.css';
 import './bootstrap.css';
+import { withAuthenticator } from '@aws-amplify/ui-react';
 
 import LoginComponent from  './components/dashboard_stuffs/Login.jsx'
 
@@ -26,4 +27,5 @@ crossorigin="anonymous"></link>
   );
 }
 
-export default App;
+// export default App;
+export default withAuthenticator(App);
