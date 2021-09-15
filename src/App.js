@@ -2,13 +2,14 @@ import React,{Component} from 'react';
 
 import './App.css';
 import './bootstrap.css';
-
+// import Amplify from '@aws-amplify';
+// import awsconfig from './aws-exports';
 // amplify addition extragit 
-import { withAuthenticator, AmplifySignOut } from '@aws-amplify/ui-react';
+// import { withAuthenticator, AmplifySignOut } from '@aws-amplify/ui-react';
 
 import LoginComponent from  './components/dashboard_stuffs/Login.jsx'
 
-
+// Amplify.configure(awsconfig);
 
 function App() {
   return (
@@ -29,5 +30,5 @@ crossorigin="anonymous"></link>
   );
 }
 
-// export default App;
-export default withAuthenticator(App);
+export default App;
+// export default withAuthenticator(App);
