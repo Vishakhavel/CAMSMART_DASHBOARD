@@ -2,7 +2,9 @@ import React,{Component} from 'react';
 
 import './App.css';
 import './bootstrap.css';
-import { withAuthenticator } from '@aws-amplify/ui-react';
+
+// amplify addition extragit 
+import { withAuthenticator, AmplifySignOut } from '@aws-amplify/ui-react';
 
 import LoginComponent from  './components/dashboard_stuffs/Login.jsx'
 
